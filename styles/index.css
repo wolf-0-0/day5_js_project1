@@ -1,0 +1,50 @@
+#playground {
+    width: 800px;
+    height: 800px;
+    margin: 50px auto;
+    border: 1px dashed black;
+    border-radius: 10px;
+    /* Because duck will use Position absolute */
+    position: relative;
+    overflow: hidden;
+    cursor: crosshair !important;
+    background: url(../assets/stage.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#duck {
+    background: url(../assets/pngwing.com.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: transparent;
+    width: 10%;
+    height: 10%;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    line-height: 1.2;
+
+}
+
+#restart {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    font-size: 50px;
+    text-align: center;
+    background-color: rgba(128, 128, 128, 0.8);
+    z-index: 1;
+    display: none;
+}
+
+.score {
+    text-align: center;
+}
