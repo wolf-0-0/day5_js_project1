@@ -4,7 +4,6 @@
     margin: 50px auto;
     border: 1px dashed black;
     border-radius: 10px;
-    /* Because duck will use Position absolute */
     position: relative;
     overflow: hidden;
     cursor: crosshair !important;
